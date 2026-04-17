@@ -29,6 +29,7 @@ class Test_FirstTest(BaseTest): # héritage
         header = HeaderPageFragment(self.driver)
         header.select_menu()
         header.select_subMenu()
+        sleep(5)
 
 
         productList = productListPage(self.driver)
