@@ -50,7 +50,7 @@ class Test_FirstTest(BaseTest): # héritage
 
         Checkout = CheckoutPage(self.driver)
         Checkout.clickOn_checkout()
-        Checkout.fill_mandatory_page("siham", "messrar", "messrarsiham300@gmail.com", "0748230897", "54 boulevard pasteur","France, Metropolitane","")
+        Checkout.fill_mandatory_page("siham", "messrar", "messrarsiham300@gmail.com", "0748230897", "54 boulevard pasteur","bruz","35170", "France, Metropolitane", "Ille et Vilaine")
         
 
        
